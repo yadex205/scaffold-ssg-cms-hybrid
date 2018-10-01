@@ -1,0 +1,19 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"]
+    },
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true
+  }
+}
