@@ -12,12 +12,15 @@
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-typescript": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "node-sass": "^4.9.3",
+    "node-sass-glob-importer": "^5.2.0",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.1.1"
   },
