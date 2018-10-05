@@ -1,6 +1,5 @@
 {
-  "include": ["./src/**/*"],
-  "exclude": ["./src/**/.*"],
+  "exclude": ["./src/**/.*", "./node_modules/**/*"],
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -11,7 +10,7 @@
     },
     "jsx": "react",
     "lib": ["dom", "esnext"],
-    "experimentalDecorators": true,
+    "experimentalDecorators": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "allowJs": false,
