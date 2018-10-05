@@ -1,7 +1,5 @@
 import React, { ReactNode } from 'react';
 
-import 'assets/css/app.sass';
-
 interface Props {
   children: ReactNode;
 };
