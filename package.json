@@ -16,7 +16,8 @@
     "gatsby-plugin-typescript": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "sanitize.css": "^7.0.3"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.7",
