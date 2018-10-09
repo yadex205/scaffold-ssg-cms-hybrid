@@ -30,7 +30,7 @@ How to use
 
 ```bash
 # Download this scaffold and install dependencies automatically
-PROJECT_NAME=my-awesome-site curl https://raw.githubusercontent.com/yadex205/scaffold-ssg-cms-hybrid/master/tsconfig.json | node
+PROJECT_NAME=my-awesome-site curl https://raw.githubusercontent.com/yadex205/scaffold-ssg-cms-hybrid/master/go | node
 
 # If PROJECT_NAME was not given, scaffold will be placed on `$PWD/my-project`
 
