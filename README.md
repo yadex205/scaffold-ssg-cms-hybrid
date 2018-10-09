@@ -39,6 +39,9 @@ cd my-awesome-site
 
 # Let's make pages with your favorite editor!
 emacs src/pages/index.tsx
+
+# Launch live preview
+npm run develop # or yarn develop
 ```
 
 ### Use Lighthouse
@@ -55,7 +58,7 @@ For testing with Lighthouse, you can use http2 enabled Nginx as a Docker contain
 
 ```bash
 # Build website
-gatsby build
+npm run build # or yarn build
 
 # Start nginx container
 docker-compose up
