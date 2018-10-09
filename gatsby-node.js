@@ -1,7 +1,15 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
-// You can delete this file if you're not using it
+module.exports = {
+  onCreateWebpackConfig({ actions, getConfig }) {
+    const config = getConfig();
+    config.resolve = {
+      ...config.resolve,
+      plugins: [
+        ...(config.resolve.plugins || []),
+        new TsconfigPathsPlugin({ extensions: ['.tsx'] })
+      ]
+    };
+    actions.replaceWebpackConfig(config);
+  }
+};
