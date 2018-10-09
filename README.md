@@ -26,6 +26,8 @@ Requirements
 How to use
 ----------
 
+### Setup
+
 ```bash
 # Download this scaffold and install dependencies automatically
 PROJECT_NAME=my-awesome-site curl https://raw.githubusercontent.com/yadex205/scaffold-ssg-cms-hybrid/master/tsconfig.json | node
@@ -38,6 +40,35 @@ cd my-awesome-site
 # Let's make pages with your favorite editor!
 emacs src/pages/index.tsx
 ```
+
+### Use Lighthouse
+
+For testing with Lighthouse, you can use http2 enabled Nginx as a Docker container.
+
+
+#### Requirements
+
+* Docker
+* docker-compose
+
+#### Run
+
+```bash
+# Build website
+gatsby build
+
+# Start nginx container
+docker-compose up
+
+# Then access to https://localhost:8443 and run Lighthouse
+
+# After checking, stop the container
+docker-compose down
+```
+
+#### Note
+
+* Self-signed SSL certificate generated while `docker-compose up` is used for https access, so **Not Secure** warning may be shown.
 
 
 Notes
