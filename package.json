@@ -1,7 +1,7 @@
 {
   "name": "@yadex205/scaffold-ssg-cms-hybrid",
   "description": "Gatsby.js powered Website scaffold with HeadlessCMS",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Kanon Kakuno <yadex205@outlook.jp>",
   "license": "MIT",
   "scripts": {
