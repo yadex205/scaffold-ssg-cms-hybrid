@@ -44,6 +44,12 @@ emacs src/pages/index.tsx
 npm run develop # or yarn develop
 ```
 
+### Linting
+
+```bash
+npm run lint (or yarn lint)
+```
+
 ### Use Lighthouse
 
 For testing with Lighthouse, you can use http2 enabled Nginx as a Docker container.

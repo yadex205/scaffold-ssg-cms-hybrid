@@ -4,15 +4,15 @@ import { Provider } from 'react-redux';
 
 export interface SiteState {
   menuOpened: boolean;
-};
+}
 
 export interface OpenMenuAction extends Action {
   type: 'OPEN_MENU';
-};
+}
 
 export interface CloseMenuAction extends Action {
   type: 'CLOSE_MENU';
-};
+}
 
 export type SiteAction = OpenMenuAction | CloseMenuAction;
 
@@ -21,7 +21,7 @@ const initialState = {
 };
 
 function reducer(state: SiteState, action: SiteAction) {
-  switch(action.type) {
+  switch (action.type) {
     case 'OPEN_MENU':
       return {
         ...state,

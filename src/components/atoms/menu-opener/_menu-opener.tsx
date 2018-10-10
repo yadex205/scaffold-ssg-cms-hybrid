@@ -20,7 +20,7 @@ interface Props {
   menuOpened: boolean;
   openMenu: () => void;
   closeMenu: () => void;
-};
+}
 
 class MenuOpener extends React.Component<Props, null> {
   private handleClick() {
